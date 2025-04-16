@@ -81,3 +81,7 @@
 ## 0.2.1
 
 - map upgrade
+
+## 0.2.2
+
+- build fix
