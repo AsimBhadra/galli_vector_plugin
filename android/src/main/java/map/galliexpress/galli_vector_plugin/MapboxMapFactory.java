@@ -1,7 +1,7 @@
 package map.galliexpress.galli_vector_plugin;
 
 import android.content.Context;
-import com.mapbox.mapboxsdk.camera.CameraPosition;
+import org.maplibre.android.camera.CameraPosition;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.StandardMessageCodec;
 import io.flutter.plugin.platform.PlatformView;

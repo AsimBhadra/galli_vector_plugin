@@ -1,12 +1,12 @@
 package map.galliexpress.galli_vector_plugin;
 
 import android.content.Context;
-import com.mapbox.mapboxsdk.Mapbox;
+import org.maplibre.android.MapLibre;
 
 abstract class MapBoxUtils {
   private static final String TAG = "MapboxMapController";
 
-  static Mapbox getMapbox(Context context) {
-    return Mapbox.getInstance(context);
+  static MapLibre getMapbox(Context context) {
+    return MapLibre.getInstance(context);
   }
 }

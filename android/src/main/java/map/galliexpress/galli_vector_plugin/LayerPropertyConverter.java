@@ -7,9 +7,9 @@ import static map.galliexpress.galli_vector_plugin.Convert.toMap;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import com.mapbox.mapboxsdk.style.expressions.Expression;
-import com.mapbox.mapboxsdk.style.layers.PropertyFactory;
-import com.mapbox.mapboxsdk.style.layers.PropertyValue;
+import org.maplibre.android.style.expressions.Expression;
+import org.maplibre.android.style.layers.PropertyFactory;
+import org.maplibre.android.style.layers.PropertyValue;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;

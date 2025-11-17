@@ -7,15 +7,15 @@ package map.galliexpress.galli_vector_plugin;
 import android.content.Context;
 import android.view.Gravity;
 import androidx.annotation.NonNull;
-import com.mapbox.mapboxsdk.camera.CameraPosition;
-import com.mapbox.mapboxsdk.geometry.LatLngBounds;
-import com.mapbox.mapboxsdk.maps.MapboxMapOptions;
+import org.maplibre.android.camera.CameraPosition;
+import org.maplibre.android.geometry.LatLngBounds;
+import org.maplibre.android.maps.MapLibreMapOptions;
 import io.flutter.plugin.common.BinaryMessenger;
 
 class MapboxMapBuilder implements MapboxMapOptionsSink {
   public final String TAG = getClass().getSimpleName();
-  private final MapboxMapOptions options =
-      new MapboxMapOptions().attributionEnabled(true).logoEnabled(false).textureMode(true);
+  private final MapLibreMapOptions options =
+      new MapLibreMapOptions().attributionEnabled(true).logoEnabled(false).textureMode(true);
   private boolean trackCameraPosition = false;
   private boolean myLocationEnabled = false;
   private boolean dragEnabled = true;
@@ -24,13 +24,13 @@ class MapboxMapBuilder implements MapboxMapOptionsSink {
   private String styleString = "https://demotiles.maplibre.org/style.json";
   private LatLngBounds bounds = null;
 
-  MapboxMapController build(
+  MapLibreMapController build(
       int id,
       Context context,
       BinaryMessenger messenger,
       GalliVectorPlugin.LifecycleProvider lifecycleProvider) {
-    final MapboxMapController controller =
-        new MapboxMapController(
+    final MapLibreMapController controller =
+        new MapLibreMapController(
             id, context, messenger, lifecycleProvider, options, styleString, dragEnabled);
     controller.init();
     controller.setMyLocationEnabled(myLocationEnabled);
