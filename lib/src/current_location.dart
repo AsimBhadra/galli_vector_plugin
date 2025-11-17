@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:galli_vector_plugin/galli_vector_plugin.dart';
+import 'package:gallimaps_vector_plugin/gallimaps_vector_plugin.dart';
 
 class CurrentLocationWidget extends StatelessWidget {
   const CurrentLocationWidget({super.key, required this.controller});

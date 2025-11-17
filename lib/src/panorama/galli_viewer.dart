@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:galli_vector_plugin/src/encryption/encryption.dart';
-import 'package:galli_vector_plugin/src/panorama/panorama.dart';
-export 'package:galli_vector_plugin/src/panorama/panorama.dart';
+import 'package:gallimaps_vector_plugin/src/encryption/encryption.dart';
+import 'package:gallimaps_vector_plugin/src/panorama/panorama.dart';
+export 'package:gallimaps_vector_plugin/src/panorama/panorama.dart';
 
 class GalliViewer extends StatefulWidget {
   final MyBuilder builder;

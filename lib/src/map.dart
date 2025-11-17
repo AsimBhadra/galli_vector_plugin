@@ -1,12 +1,12 @@
 import 'dart:math' hide log;
 import 'package:flutter/material.dart';
-import 'package:galli_vector_plugin/src/api/methods.dart';
-import 'package:galli_vector_plugin/src/current_location.dart';
-import 'package:galli_vector_plugin/src/flutter_map_libre/mapbox_gl.dart';
-import 'package:galli_vector_plugin/src/search.dart';
-import 'package:galli_vector_plugin/src/three_60.dart';
+import 'package:gallimaps_vector_plugin/src/api/methods.dart';
+import 'package:gallimaps_vector_plugin/src/current_location.dart';
+import 'package:gallimaps_vector_plugin/src/flutter_map_libre/mapbox_gl.dart';
+import 'package:gallimaps_vector_plugin/src/search.dart';
+import 'package:gallimaps_vector_plugin/src/three_60.dart';
 import 'package:geolocator/geolocator.dart';
-export 'package:galli_vector_plugin/src/flutter_map_libre/mapbox_gl.dart';
+export 'package:gallimaps_vector_plugin/src/flutter_map_libre/mapbox_gl.dart';
 
 class GalliMap extends StatefulWidget {
   final ({double height, double width}) size;

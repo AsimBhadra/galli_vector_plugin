@@ -25,7 +25,7 @@ Then, run flutter pub get to install the new dependency.
 Import the plugin in your Dart code:
 
 ```dart
-import 'package:galli_vector_plugin/galli_vector_plugin.dart';
+import 'package:gallimaps_vector_plugin/galli_vector_plugin.dart';
 ```
 
 ## Basic Example

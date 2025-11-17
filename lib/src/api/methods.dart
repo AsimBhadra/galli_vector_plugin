@@ -1,8 +1,8 @@
 import 'dart:developer';
-import 'package:galli_vector_plugin/galli_vector_plugin.dart';
-import 'package:galli_vector_plugin/src/api/galli_api.dart';
-import 'package:galli_vector_plugin/src/encryption/encryption.dart';
-import 'package:galli_vector_plugin/src/static/url.dart';
+import 'package:gallimaps_vector_plugin/gallimaps_vector_plugin.dart';
+import 'package:gallimaps_vector_plugin/src/api/galli_api.dart';
+import 'package:gallimaps_vector_plugin/src/encryption/encryption.dart';
+import 'package:gallimaps_vector_plugin/src/static/url.dart';
 
 enum Three60Type { focused, near }
 

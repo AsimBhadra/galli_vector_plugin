@@ -1,5 +1,3 @@
-library galli_vector_plugin;
-
 export 'src/map.dart';
 export 'src/api/methods.dart';
 export 'src/panorama/galli_viewer.dart';

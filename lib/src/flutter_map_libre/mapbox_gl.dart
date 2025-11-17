@@ -13,8 +13,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:galli_vector_plugin/src/maplibre_gl_platform_interface/maplibre_gl_platform_interface.dart';
-export 'package:galli_vector_plugin/src/maplibre_gl_platform_interface/maplibre_gl_platform_interface.dart'
+import 'package:gallimaps_vector_plugin/src/maplibre_gl_platform_interface/maplibre_gl_platform_interface.dart';
+export 'package:gallimaps_vector_plugin/src/maplibre_gl_platform_interface/maplibre_gl_platform_interface.dart'
     show
         LatLng,
         LatLngBounds,

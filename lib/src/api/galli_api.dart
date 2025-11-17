@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:galli_vector_plugin/src/static/url.dart';
+import 'package:gallimaps_vector_plugin/src/static/url.dart';
 import 'package:http/http.dart' as http;
 
 class GalliApi {

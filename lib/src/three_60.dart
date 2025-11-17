@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:galli_vector_plugin/src/map.dart';
+import 'package:gallimaps_vector_plugin/src/map.dart';
 
 class Three60ButtonWidget extends StatelessWidget {
   const Three60ButtonWidget({super.key, required this.controller});

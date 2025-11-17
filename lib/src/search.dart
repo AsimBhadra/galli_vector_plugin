@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:galli_vector_plugin/galli_vector_plugin.dart';
+import 'package:gallimaps_vector_plugin/gallimaps_vector_plugin.dart';
 
 class GalliSearchWidget extends StatefulWidget {
   const GalliSearchWidget(

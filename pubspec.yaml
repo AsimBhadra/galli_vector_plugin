@@ -1,27 +1,25 @@
-name: galli_vector_plugin
+name: gallimaps_vector_plugin
 description: A Galli vector map widget that displays a map with custom markers, lines, circles and polygons.
-version: 0.2.2
+version: 1.0.0
 homepage: https://gallimaps.com
 
 environment:
-  sdk: ">=3.0.1 <4.0.0"
-  flutter: ">=3.3.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
-  meta: ^1.0.5
+  plugin_platform_interface: ^2.1.8
+  meta: ^1.16.0
   flutter_cube: ^0.1.1
-  http:
-  geolocator: ^9.0.2
+  http: ^1.6.0
+  geolocator: ^14.0.2
 
   # location: ^5.0.3
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

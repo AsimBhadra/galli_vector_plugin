@@ -1,4 +1,4 @@
-import 'package:galli_vector_plugin/galli_vector_plugin.dart';
+import 'package:gallimaps_vector_plugin/gallimaps_vector_plugin.dart';
 
 class GalliUrl {
   final String imageUrl = "https://image-init.gallimap.com/api/v1";

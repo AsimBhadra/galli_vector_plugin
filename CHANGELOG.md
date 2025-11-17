@@ -1,4 +1,4 @@
-## 0.0.1
+<!-- ## 0.0.1
 
 - initial release.
 
@@ -84,4 +84,8 @@
 
 ## 0.2.2
 
-- build fix
+- build fix -->
+
+## 1.0.0
+- Updated dependencies to latest versions
+- Fixed Android 16KB issue

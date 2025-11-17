@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 package map.galliexpress.galli_vector_plugin
 
-import com.mapbox.mapboxsdk.geometry.LatLngBounds
+import org.maplibre.android.geometry.LatLngBounds
 
 /** Receiver of MapboxMap configuration options.  */
 internal interface MapboxMapOptionsSink {
