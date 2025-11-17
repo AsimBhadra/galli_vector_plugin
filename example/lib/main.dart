@@ -50,18 +50,20 @@ class _VectorMapState extends State<VectorMap> {
             ),
             compassPosition: (
               position: CompassViewPosition.topRight,
-              offset: const Point(32, 82)
+              offset: const Point(32, 82),
             ),
             showCompass: true,
             onMapCreated: (newC) {
               controller = newC;
 
               controller!.addFill(FillOptions());
-              controller!.addCircle(CircleOptions(
-                circleOpacity: 0.32,
-                geometry: LatLng(27.677670698052346, 85.32128605620954),
-                circleRadius: 50,
-              ));
+              controller!.addCircle(
+                CircleOptions(
+                  circleOpacity: 0.32,
+                  geometry: LatLng(27.677670698052346, 85.32128605620954),
+                  circleRadius: 50,
+                ),
+              );
               setState(() {});
             },
             onMapClick: (LatLng latLng) {
