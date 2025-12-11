@@ -85,3 +85,6 @@
 ## 0.2.2
 
 - build fix
+
+## 1.0.1
+- Updated Package Name & Version Constraints
