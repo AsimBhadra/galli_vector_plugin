@@ -88,3 +88,5 @@
 
 ## 1.0.1
 - Updated Package Name & Version Constraints
+- Fixed 16KB issue on Android
+- Changed minSdkVersion from 28 to 21 to support more devices
