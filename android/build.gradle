@@ -55,6 +55,6 @@ dependencies {
 }
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8)) // or 17 if required
+        languageVersion.set(JavaLanguageVersion.of(17)) // or 17 if required
     }
 }
