@@ -35,10 +35,6 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
     dependencies {
         implementation 'org.maplibre.gl:android-sdk:10.2.0'
         implementation 'org.maplibre.gl:android-plugin-annotation-v9:2.0.0'
